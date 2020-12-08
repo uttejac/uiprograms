@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    <script>
+        function large() {
+            var num1 = window.prompt("Num1: ");
+            var num2 = window.prompt("Num1: ");
+             num1 = parseFloat(num1);
+             num2 = parseFloat(num2);
+            document.write("Number1 = "+num1 +"<br>");
+            document.write("Number2 = "+num2 +"<br>");
+            if(num1>num2) {
+               document.write('N1 is large!');
+            } else {
+               document.write('N2 is large!');
+            }
+        
+        }
+
+
+
+    </script>
+    </head>
+    <body>
+        <button onclick="large()">click here</button>
+    </body>
+</html>

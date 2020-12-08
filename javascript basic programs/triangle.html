@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>The area of a triangle</title>
+<script>
+      
+    function triangle() {
+        var a,b,c;
+      a=Number(document.getElementById("first").value);
+       b=Number(document.getElementById("second").value);
+       c= (a + b)/2;
+      document.getElementById("answer").value= c;
+    }
+       
+
+   </script> 
+</head>
+
+<body> 
+   
+    Enter the First number : <input id="first"><br><br>
+
+    Enter the Second number: <input id="second"><br><br>
+
+    <button onclick="triangle()">Area of Triangle</button>
+    <input id="answer">
+    </body>
+</html>

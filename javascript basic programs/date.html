@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>date</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <script>
+            function date() {
+            var d = new Date();
+            document.getElementById("date").innerHTML = d;
+            var d1=d.getHours()
+            document.getElementById("hrs").innerHTML=d1;
+            var d1=d.getMinutes()
+            document.getElementById("min").innerHTML=d1;
+            var d1=d.getSeconds()
+            document.getElementById("sec").innerHTML=d1;
+            var d1=d.getMilliseconds()
+            document.getElementById("msec").innerHTML=d1;
+            }
+            </script>
+    
+    </head>
+    <body>
+        <p id="date" ></p>
+        <button onclick="date()">click here</button>
+       <p id="hrs">hours</p>
+       <p id="min">minutes</p>
+       <p id="sec">seconds</p>
+       <p id="msec">milliseconds</p>
+
+    </body>
+</html>

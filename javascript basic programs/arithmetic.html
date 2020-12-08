@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>arithmetic</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <script>
+            var a = window.prompt("Num1: ");
+            var b = window.prompt("Num2: ");
+            var c= window.prompt("Num3: ");
+             a = parseFloat(a);
+             b = parseFloat(b);
+             c = parseFloat(c);
+            var addition, subtraction, multiplication, division, modulus,postincrement,postdecrement,preincrement,predecrement;
+         
+            addition = a + b; //addition of 3 and 12
+            subtraction = a - b; //subtract 3 from 12
+            multiplication = a * b; //Multiplying both
+            division = a / b; //dividing 12 by 3 (number of times)
+            modulus = a % b; //calculation the remainder
+            postincrement = c++;
+            postdecrement =c--;
+            preincrement = ++c;
+            predecrement =--c;
+
+            document.write("Addition of " + a +' and ' + b +" is = " + addition + "<br />");
+            document.write("Subtraction of " + a +' and ' + b +" is = " + subtraction + "<br />");
+            document.write("Multiplication of " + a +' and ' + b +" is = " + multiplication + "<br />");
+            document.write("Division of " + a +' and ' + b +" is = " + division + "<br />");
+            document.write("Modulus of " + a +' and ' + b +" is = " + modulus + "<br />");
+            document.write("Increment  Value of c : "+ postincrement + "<br \>");
+            document.write(" Decrement Value of c : "+ postdecrement + "<br \>");
+            document.write("Increment  Value of c : "+ preincrement + "<br \>");
+            document.write(" Decrement Value of c : "+ predecrement + "<br \>");
+         </script>
+    </body>
+</html>

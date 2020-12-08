@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>formulas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <script>
+            function dis() {
+            let a = prompt("Enter the first number: ");
+            let b = prompt("Enter the second number: ");
+            let c = prompt("Enter the third number: ");
+            let discriminant = b * b - 4 * a * c;
+            document.write(discriminant);
+            }
+            function root() {
+                let a = prompt("Enter the first number: ");
+            let root= Math.sqrt(a);
+
+            document.write(root);
+            }
+            function eq() {
+                let x = prompt("Enter the first number: ");
+            let y = x * x - 7 * x + 12;           
+               document.write(y);
+            }
+            function qroots() {
+                let a = prompt("Enter the first number: ");
+            let b = prompt("Enter the second number: ");
+            let c = prompt("Enter the third number: ");
+            let discriminant = b * b - 4 * a * c;
+            let din= 2 * a;
+            let roots= (discriminant/(din));
+            document.write(roots);
+            }
+           
+    
+    
+        </script>
+    </head>
+    <body>
+       <button onclick="dis()">Discriminent</button>
+       <button onclick="root()">root</button>
+       <button onclick="eq()">equation</button>
+       <button onclick="qroots()"> Quadratic roots</button>
+
+
+    </script>
+    </body>
+</html>

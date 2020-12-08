@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    <script>
+        function oddeven() {
+            var num = window.prompt("Num1: ");
+             num = parseFloat(num);
+            document.write("Number = "+num+"<br>");
+            if(num % 2 == 0) {
+               document.write('Number is even!');
+            } else {
+               document.write('Number is odd!');
+            }
+        }
+
+
+    </script>
+    </head>
+    <body>
+        
+        <button onclick="oddeven()">click here</button>
+        
+    </body>
+</html>
