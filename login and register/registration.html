@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title> Registration page </title>
+</head>
+<body background="login.jpg">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  overflow: hidden;
+  background-color: powderblue;
+  padding: 5px 5px;
+}
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 15px;
+  border-radius: 1px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.header-right {
+  float: right;
+}
+.button {
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <a href="#default" class="logo"><img src="Dell_logo.png" width =50 height =50 hspace =50 align =left></a>
+  <div class="header-right">
+    <a href="#home">Home</a>
+    <a href="#contact">Contact</a>
+    <a href="#services">services</a>
+    <a href="#find a store">find a store</a>     
+
+</div>
+</div>
+<div style="padding-left:20px">
+ </div>
+
+<div id= "Mainwrapper"> 
+<form method = "post" enctype="multipart/form-data">
+<table align="center" style ="color:white;width:480px;height:150px;position:relative;top:5px;"border= "0">
+<tr><td style="position:relative;left:140px;bottom:5px;background-colour=#1D2247;">
+<center><h3>Register</h3></center></td>
+</tr>
+<td><center>Firstname</center></td>
+<td><input type ="Text" name ="Firstname" maxlength="20" placeholder=" Firstname" />(20 charecters)</td>
+<tr>
+<td><center>Lastname</center></td>
+<td><input type ="Text" name ="Lastname" maxlength="20" placeholder="type your Lastname" />(max 20 charecters)</td>
+</tr>
+<tr>
+<td><center>Email</center></td>
+<td><input type ="Text" name ="Email" maxlength="20" placeholder="type your Email" / >(max 30 charecters)</td>
+</tr>
+<tr>
+<td><center>Date</center></td>
+<td><input type ="Date" name ="Date" placeholder= /></td>
+</tr>
+<tr><td><center>Gender</center></td>
+<td><input type="radio" name ="gender">Male
+<input type="radio" name ="gender">Female</center></td></tr>
+<tr><td><center>Careers</center></td>
+<td><input type="radio" name ="Career">Accounting
+<input type="radio" name ="Career">Finance
+<input type="radio" name ="Career">Security</center></td></tr>
+<tr><td><center>Type</center></td>
+<td><input type="radio" name ="Type">Desktop
+<input type="radio" name ="Type">Laptop</center></td></tr>
+<tr><td><center>Processor</center></td>
+<td><input type="radio" name ="Processor">corei3
+<input type="radio" name ="Processor">Corei5</center></td></tr>
+<tr><td><center>Memory</center></td>
+<td><input type="radio" name ="Memory">SDD
+<input type="radio" name ="Memory">HDD
+<input type="radio" name ="Memory">HDD+SDD</center></td></tr>
+<tr><td><center>Graphic card</center></td>
+<td><input type="radio" name ="Graphic card">2GB
+<input type="radio" name ="Graphic card">4GB</td></tr>
+<tr><td><center>RAM</center></td>
+<td><input type="radio" name ="RAM">4GB
+<input type="radio" name ="RAM">8GB
+<br>
+</td></tr>
+<tr><td><center>Warranty</center></td>
+<td><input type="radio" name ="Warranty">3 year parts and labor 
+<input type="radio" name ="Warranty">4 year parts and labor
+</td></tr>
+<tr><td><center>Insurance</center></td>
+<td><input type="radio" name ="Insurance">Comprehensive breakage,theft,hazard
+</td></tr>
+<tr><td><center>Purchase option</center></td>
+<td><input type="radio" name ="Purchase option">online
+<input type="radio" name ="Purchase option">offline
+</td></tr>
+<tr><td><center>if online choose Payment</center></td>
+<td><input type="radio" name ="Payment">Net-Banking
+<input type="radio" name ="Payment">UPI
+<input type="radio" name ="Payment">Debit card
+<input type="radio" name ="Payment">cod
+</td></tr>
+<tr>
+<td><center>Shipping Address</center></td>
+<td><input type ="Text" name ="Shipping Address" placeholder="Shipping Address" /></td>
+</tr>
+<tr>
+<td><center>City</center></td>
+<td><input type ="Text" name ="City" placeholder="type your City" /></td>
+</tr>
+<tr>
+<td><center>State</center></td>
+<td><input type ="Text" name ="State" placeholder="type your State" /></td>
+</tr>
+<tr>
+<td><center>Pincode</center></td>
+<td><input type ="Text" name ="Pincode" placeholder="pincode" /></td>
+</tr>
+<tr>
+<td><center>enter Password</center></td>
+<td><input type ="Password" name ="Password" maxlength="8" placeholder="create your Password" />(max 8 charecters)</td>
+</tr>
+</tr>
+</table>
+<td>
+<center>
+<br>
+<tr><td>
+<center><a href="gotopage.html" style ="background-color:black;color:white;width:150px;height:20px;position:relative;top:0px;"><button>Register </buttons></a></center></td></tr>
+<br>
+<tr><td>
+<center><a href="login.html" style ="background-color:black;color:white;width:150px;height:20px;position:relative;top:0px;"><button>Go to login </buttons></a></center></td></tr>
+
+</form>
+</div>
+</body>
+</html>
