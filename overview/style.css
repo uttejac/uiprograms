@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>css file</title>
+<body>
+<style>
+<style>
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  overflow: hidden;
+  background-color: white;
+  padding: 5px 5px;
+}
+ul {
+  list-style-type: none;
+  margin=0;
+  padding: 10px;
+  width: 170px;
+  background-color:white;
+  position:fixed;
+
+}
+li {
+float:left;
+}
+
+li a {
+  font-size:20px;
+  display: block;
+  color: black;
+  padding: 8px 16px;
+text-decoration:none;
+}
+/*hover select elements when you mouse over them */
+li a:hover {
+  background-color: gray;
+  color: white;
+}
+.footer {
+   font-weight:bold;
+   font-size:20px;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   background-color:black;
+   color: white;
+   text-align: center;
+}
+
+</style>
+</body>
+</html>
