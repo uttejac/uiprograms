@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777;
+}
+body,select,input[type="text"]{
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+  }
+  textarea {
+    background: transparent;
+    color:#1a1801;
+    border:none;
+  }
+  a {
+    color:white;
+    
+  }
+  .header {
+    font-weight: bold;
+  }
+  
+  table, tr, td {
+    border: 0;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: 0 auto;
+    font-family:Georgia,Garamond, Serif;
+   color:rgb(29, 29, 70);
+  }
+
+  .mybutton {
+    
+
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    border: none;
+    display: inline-block;
+    font-size: 16px;
+
+    cursor: pointer;
+    background-color:rgb(63, 191, 63);
+    
+  }
+
+  #entrybox {
+    width: 25%;
+    color: white;
+    height: 45px;
+    margin-left: 5px;
+    
+    border-radius: 6px;
+    background-color: rgb(63, 191, 63);
+  }
+  #sf {
+    height: 43px;
+    border: 2px solid #1a1801;
+    border-radius: 4px;
+  }
+
+  .bill {
+    margin-left: 23%;
+    margin-right: 20%;
+
+  }
+
+  .bill1 {
+    margin-left: 33%;
+    margin-right: 20%;
+
+  }
+  h1{
+    color:#1a1801;
+  }
+
+ 
+
+  .bill2 {
+    margin-left: 62%;
+    position: relative;
+  }
+   .bill3 {
+    margin-left: 50%;
+    position: absolute;
+  }
+  .rightbox {
+    color: rgb(10, 10, 10) ;
+  }
+  
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.shop-item {
+    margin: 30px;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.shop-item-image {
+    height: 250px;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: #333;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+a {
+    Text-decoration:none;
+    
+}
+li {
+    list-style-type:none;
+}
+.nav-link {
+  color:white; 
+}
