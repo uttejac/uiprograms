@@ -70,7 +70,7 @@
 
     function checkOut() {
       gw.value += "*******************\r";
-      gw.value += "Total Bill Is =  " + total + " INR  \r";
+      gw.value += "Total Bill Is =  " + total + " ₹  \r";
       gw.value += "Thanks For Shopping! Visit again.\r";
       gw.value += "*******************\r";
       total = 0;
