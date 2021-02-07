@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--link bootstrap and css files-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="C:\Users\Uttej\Desktop\project\CSS\bstyle.css" />
+    <link rel="stylesheet" href="C:\Users\Uttej\Desktop\project\CSS\report.css" />
+    <link rel="stylesheet" href="C:\Users\Uttej\Desktop\project\CSS\search.css" />
+    
+    <title> DASHBOARD</title>
+  </head>
+  <body id="body">
+    <div class="container-fluid">
+      <!--navbar starts-->
+      <nav class="navbar">
+        
+        <div class="navbar__left">
+          
+          <a class="active_link" href="#">Admin</a>
+          
+
+        </div>
+        <div class="navbar__right">
+          
+           <form action="track.html" style="margin:auto;max-width:300px">
+              <input type="text" placeholder="Track Here" name="search" required>
+              <button type="submit">Track</button>
+        </div>
+        <div class="sidebar__logout">
+          <i class="fa fa-power-off"></i>
+          <a href="index.html">Log out</a>
+        </div>
+      </nav>
+<!--nav ends-->
+      <main>
+        <div class="main__container">
+          <!-- main container starts  -->
+
+          <div class="main__title">
+            <img src="C:\Users\Uttej\Desktop\project\images\logo.gif" alt=" image" width="50" height="50" />
+            <div class="main__greeting">
+              <h1>Hello Uttej!</h1>
+              <p>Welcome to your dashboard</p>
+            </div>
+          </div>
+
+          <!-- main container ends -->
+
+          <!-- card elements start here -->
+          <div class="main__cards">
+            <div class="card">
+              <i
+                class="fa fa-users fa-2x text-lightblue"
+                aria-hidden="true"
+              ></i>
+              <div class="card_inner">
+                <p class="text-primary-p">Number of Students enrolled program</p>
+                <span class="font-bold text-title">1578</span>
+              </div>
+            </div>
+            <div class="card">
+              <i class="fa fa-user fa-2x text-yellow" aria-hidden="true"></i>
+              <div class="card_inner">
+                <p class="text-primary-p">Number of Staff members</p>
+                <span class="font-bold text-title">22+</span>
+              </div>
+            </div>
+
+            <div class="card">
+              <i class="fa fa-calendar fa-2x text-red" aria-hidden="true"></i>
+              <div class="card_inner">
+                <p class="text-primary-p">Technologies Teaching </p>
+                <span class="font-bold text-title">28+</span>
+              </div>
+            </div>
+
+            
+
+            <div class="card">
+              <i
+                class="fa fa-thumbs-up fa-2x text-green"
+                aria-hidden="true"
+              ></i>
+              <div class="card_inner">
+                <p class="text-primary-p">Number of peoples support this website</p>
+                <span class="font-bold text-title">1K+</span>
+              </div>
+            </div>
+          </div>
+          <!-- cards ends here -->
+
+          
+          <!-- chart table start here -->
+          <div class="charts">
+          
+                <table class="content-table">
+                
+                  <thead>
+                    <tr>
+                      <th>S.NO</th>
+                      <th>COURSE</th>
+                      <th>STUDENTS</th>
+                      <th>STATUS</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Computer Networking</td>
+                      <td>110</td>
+                      <td>On Progress</td>
+                    </tr>
+                    <tr >
+                      <td>2</td>
+                      <td>Digital Marketing</td>
+                      <td>273</td>
+                      <td>Yet To Start</td>
+                    </tr>
+                    <tr >
+                      <td>3</td>
+                      <td>Core Technologies</td>
+                      <td>300</td>
+                      <td>Started</td>
+                    </tr>
+                    <tr >
+                      <td>4</td>
+                      <td>Web Development</td>
+                      <td>320</td>
+                      <td>On Progress</td>
+                    </tr>
+                    <tr >
+                      <td>5</td>
+                      <td>Big Data</td>
+                      <td>270</td>
+                      <td>Yet to start</td>
+                    </tr>
+
+                  </tbody>
+                </table>
+              
+            
+            
+
+            <div class="charts__right">
+              <div class="charts__right__title">
+                <div>
+                  <h1>Overall Reports</h1>
+                  <p>Hyderbad</p>
+                </div>
+                
+              </div>
+
+              <div class="charts__right__cards">
+                <div class="card1">
+                  <h1>Clients</h1>
+                  <p>MNC</p>
+                </div>
+
+                <div class="card2">
+                  <h1>Placements</h1>
+                  <p>skill based</p>
+                </div>
+
+                <div class="card3">
+                  <h1> Users</h1>
+                  <p>1578</p>
+                </div>
+
+                <div class="card4">
+                  <h1>Total</h1>
+                  <p>15000+</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- chart table ends here -->
+        </div>
+      </main>
+      </div>
+    </div>
+    </div>
+    <!--container ends-->
+  </body>
+</html>

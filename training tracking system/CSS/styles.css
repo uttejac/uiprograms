@@ -1,0 +1,66 @@
+* {box-sizing: border-box;}
+body{
+ 
+  font-family: sans-serif;
+  
+  background-repeat: no-repeat;
+  height:100%;
+background-position: center bottom;
+
+background-attachment: fixed;
+}
+input{
+  border-radius: 50px;
+  font-size: 18px;
+}
+
+.navbar{
+	position: fixed;
+	height: 100px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(77, 67, 67, 0.4);
+}
+.navbar .logo{
+	width: 70px;
+	height: 60px;
+	padding: 10px 50px;
+}
+
+.submit {
+  cursor: pointer;
+    border-radius: 80px;
+    color: #fff;
+    background: linear-gradient(to right, #9C27B0, #E040FB);
+    border:none;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 0%;
+    font-size: 13px;
+   
+}
+.buttons{
+	margin: 35px 280px;
+}
+.buttons button{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #c23d3d;
+	background: rgb(157, 158, 97);
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #cc0000;
+	border-radius: 25px;
+  transition: .4s;
+  margin-left: 100%;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
