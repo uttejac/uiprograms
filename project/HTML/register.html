@@ -1,0 +1,119 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<title> Register page </title>
+<link rel="stylesheet" href="C:\Users\Uttej\Desktop\project\CSS\styles.css">
+<script src="reg.js">
+</script>
+    
+    
+        <!-- Meta info -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        </head>
+        <body style="background-image: linear-gradient(#93a5cf , #e4efe9);">
+        
+            
+				
+		
+				
+			<div class="buttons">
+        <button><a href="C:\Users\Uttej\Desktop\new appli\new.html" class="btn btn dark" >Sign in</a></button>
+				</div>
+		
+        <!-- form elements -->
+         
+    <form name="form" method="post" action="succes.html" onsubmit="return validation()">
+        <table align="center" style ="width:480px;height:150px;position:relative;top:5px;"border= "0">
+            <tr>
+            <td style="left:150px;bottom:0px;position:relative;">
+            
+            <center><h2>Create account</h2></center></td>
+            </tr>
+            <!-- register details -->
+    <tr>
+    <td> First Name:</td>
+    <td><input type="text" name="name" maxlength="20" ></td>
+    </tr>
+    
+    <tr>
+      <td> Last Name:</td>
+      <td><input type="text" name="lastname" maxlength="10" ></td>
+      </tr>
+      
+    <tr>
+        <td> Passsword:</td>
+        <td><input type="password" name="pass"></td>
+        </tr>
+        <tr>
+            <td> Email:</td>
+            <td><input type="text" name="email"></td>
+            </tr>
+            <tr>
+                <td> Phone No:</td>
+                <td><input type="number" name="phone" ></td>
+                </tr>
+                <tr><td>
+                  Gender: </td><td><input type="radio" name="gender" value="male"> male
+                  <input type="radio" name="gender" value="female">female</td></tr>
+                  <tr><td>Courses <br>applied for</td>
+                    <td>
+                    
+                    <input type="radio" name="Course_BCA" value="BCA">computers
+                  
+                    <input type="radio" name="Course_BCom" value="B.Com">  core field
+                
+                    <input type="radio" name="Course_BSc" value="B.Sc">   marketing
+                   
+                    </td></tr>
+                     <td> Payment Option</td>
+                    <td> <input type="radio" name="payment" value="online">online
+                  
+                     <input type="radio" name="payment" value="offline"> offline
+                    </td> </tr>
+                            <td> Address</td>
+                              <td><textarea name="address" cols="30" rows="3"></textarea></td>
+                              </tr>
+                           <tr>
+                              <td>City</td>
+                                  <td><input type="text" name="city" maxlength="30" />
+                                          
+                            </td>
+                              </tr>
+                                           
+                                 <tr>
+                                 <td>Pin code</td>
+                                    <td><input type="text" name="Pin" maxlength="6" />
+                                          
+                                          </td>
+                                          </tr>
+                                           
+                                          <tr>
+                                          <td>State</td>
+                                          <td><input type="text" name="state" maxlength="30" />
+                                          
+                                          </td>
+                                          </tr>
+                                           
+                                          <tr>
+                                          <td>Country</td>
+                                          <td><input type="text" name="country"   /></td>
+                                          </tr>
+                                           
+          
+          <!-- submit button -->
+                    </table><br><br>
+        <td><center><input class="submit" type="submit"  value="Submit"></center></td>
+
+
+      
+
+
+
+    </form>
+    </body>
+    </html>
+
